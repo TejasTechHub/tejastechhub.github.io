@@ -288,3 +288,4 @@ Project JSON structure:
 
 Happy coding! 🎉
 `);
+
