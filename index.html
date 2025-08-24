@@ -4,73 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teja's Tech Hub</title>
-    <meta name="description" content="Teja's Tech Hub - A dynamic portfolio showcasing my latest projects and tech work.">
+    <meta name="description" content="Teja's Tech Hub - A dynamic portfolio showcasing cutting-edge projects and innovations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <header>
+    <div class="bg-animation"></div>
+    
+    <header id="header">
         <div class="container">
-            <h1>Teja's Tech Hub</h1>
-            <p class="tagline">Dynamic Portfolio - Just Edit projects.json to Update!</p>
+            <div class="header-content">
+                <div class="logo">Teja's Tech Hub</div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <main>
         <section id="hero" class="hero">
             <div class="container">
-                <h2>Welcome to My Tech Hub</h2>
-                <p>This website automatically updates when you edit the projects.json file. No need to touch HTML!</p>
-                <a href="#projects" class="btn">View Projects</a>
+                <div class="hero-content">
+                    <h1>Welcome to My Tech Hub</h1>
+                    <p class="hero-subtitle">Dynamic Portfolio • JSON-Powered • Always Updated</p>
+                    <p class="hero-description">This website automatically updates when you edit the projects.json file. No need to touch HTML - just pure innovation!</p>
+                    <a href="#projects" class="cta-button">
+                        <span>Explore Projects</span>
+                        <span>→</span>
+                    </a>
+                </div>
             </div>
         </section>
 
+         <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-profile">
+                        <div class="profile-image-container">
+                            <div class="profile-glow"></div>
+                            <!-- Replace the src with your actual image path -->
+                            <img src="https://via.placeholder.com/250x250/667eea/ffffff?text=Your+Photo" 
+                                 alt="Teja's Profile" 
+                                 class="profile-image"
+                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <!-- Fallback if image doesn't load -->
+                            <div class="profile-image-placeholder" style="display: none;">
+                                👨‍💻
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3 class="profile-name">Teja</h3>
+                            <p class="profile-title">Full Stack Developer & Tech Innovator</p>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>Welcome to my cutting-edge tech hub! I'm passionate about creating innovative solutions that push the boundaries of what's possible. With expertise in modern web technologies and a keen eye for design, I build applications that are both functional and beautiful.</p>
+                        <p>This dynamic portfolio represents my approach to development - clean, efficient, and always evolving. Every project is an opportunity to learn something new and create something meaningful.</p>
+                    </div>
+                </div>
+
         <section id="projects" class="projects-section">
             <div class="container">
-                <h2>My Projects</h2>
+                <h2>Featured Projects</h2>
                 
                 <div class="filters">
-                    <input type="text" id="search" placeholder="Search projects..." class="search-input">
+                    <div class="search-container">
+                        <input type="text" id="search" placeholder="Search projects..." class="search-input">
+                    </div>
                     <div id="tag-filters" class="tag-filters"></div>
                 </div>
 
                 <div id="projects-grid" class="projects-grid">
-                    <div class="loading">Loading projects...</div>
+                    <div class="loading">Loading amazing projects</div>
                 </div>
             </div>
         </section>
-
-        <section id="about" class="about-section">
-            <div class="container">
-                <h2>About</h2>
-                <div class="about-content">
-                    <p>Welcome to my tech hub! This is a dynamic portfolio website that automatically updates when I edit the projects.json file. No need to manually update HTML - just add your project data to the JSON file and the site updates instantly.</p>
-                    <p>This approach makes it incredibly easy to maintain and update my portfolio without touching any code.</p>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">⚡</div>
+                        <div class="feature-content">
+                            <h3>Lightning Fast</h3>
+                            <p>Optimized performance with modern web technologies and efficient loading strategies.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🎨</div>
+                        <div class="feature-content">
+                            <h3>Modern Design</h3>
+                            <p>Contemporary aesthetics with smooth animations and interactive elements that engage users.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🔄</div>
+                        <div class="feature-content">
+                            <h3>Auto-Updates</h3>
+                            <p>Simply edit the JSON file and watch your portfolio update instantly without touching any code.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="contact" class="contact-section">
             <div class="container">
-                <h2>Contact</h2>
+                <h2>Let's Connect</h2>
                 <div class="contact-content">
-                    <p>Get in touch with me:</p>
-                    <ul>
-                        <li>Email: <a hre
-                          ="mailto:your@email.com">your@email.com</a></li>
-                        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">@yourusername</a></li>
-                        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your Profile</a></li>
-                    </ul>
+                    <p>Ready to collaborate on something amazing? Let's build the future together.</p>
+                    <div class="contact-links">
+                        <a href="mailto:your@email.com" class="contact-link">
+                            <span>📧</span>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://github.com/yourusername" target="_blank" class="contact-link">
+                            <span>🐙</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-link">
+                            <span>💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -78,7 +142,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Teja's Tech Hub. Built with vanilla HTML, CSS, and JavaScript.</p>
+            <p>&copy; 2025 Teja's Tech Hub. Crafted with passion using vanilla technologies.</p>
         </div>
     </footer>
 
