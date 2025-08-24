@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teja's Tech Hub</title>
+    <meta name="description" content="Teja's Tech Hub - A dynamic portfolio showcasing my latest projects and tech work.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Teja's Tech Hub</h1>
+            <p class="tagline">Dynamic Portfolio - Just Edit projects.json to Update!</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2>Welcome to My Tech Hub</h2>
+                <p>This website automatically updates when you edit the projects.json file. No need to touch HTML!</p>
+                <a href="#projects" class="btn">View Projects</a>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                
+                <div class="filters">
+                    <input type="text" id="search" placeholder="Search projects..." class="search-input">
+                    <div id="tag-filters" class="tag-filters"></div>
+                </div>
+
+                <div id="projects-grid" class="projects-grid">
+                    <div class="loading">Loading projects...</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About</h2>
+                <div class="about-content">
+                    <p>Welcome to my tech hub! This is a dynamic portfolio website that automatically updates when I edit the projects.json file. No need to manually update HTML - just add your project data to the JSON file and the site updates instantly.</p>
+                    <p>This approach makes it incredibly easy to maintain and update my portfolio without touching any code.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <p>Get in touch with me:</p>
+                    <ul>
+                        <li>Email: <a hre
+                          ="mailto:your@email.com">your@email.com</a></li>
+                        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">@yourusername</a></li>
+                        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Teja's Tech Hub. Built with vanilla HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
