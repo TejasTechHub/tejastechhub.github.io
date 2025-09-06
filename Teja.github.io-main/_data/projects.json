@@ -1,43 +1,8 @@
 [
   {
-    "title": "Sample Project 1",
-    "type": "personal",
-    "shortDescription": "This is a sample project to demonstrate the dynamic website functionality.",
-    "fullDescription": "This is a sample project to demonstrate the dynamic website functionality. You can add more details here.",
-    "tags": ["web", "javascript", "demo"],
-    "date": "2025-01-15",
-    "status": "Completed",
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-1" },
-      { "label": "Demo", "url": "https://demo.example.com" }
-    ],
-    "thumbnail": "https://via.placeholder.com/300x200/0078d7/ffffff?text=Project+1"
-  },
-  {
-    "title": "Sample Project 2",
-    "type": "tech",
-    "shortDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
-    "fullDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file. You can add more details here.",
-    "tags": ["react", "nodejs", "api"],
-    "date": "2025-01-10",
-    "status": "In Progress",
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-2" }
-    ],
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+2"
-  },
-  {
-    "title": "Sample Project 3",
-    "type": "tech",
-    "shortDescription": "A third project to show the grid layout and filtering capabilities.",
-    "fullDescription": "A third project to show the grid layout and filtering capabilities. You can add more details here.",
-    "tags": ["python", "data", "analysis"],
-    "date": "2025-01-05",
-    "status": "Planning",
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-3" },
-      { "label": "Documentation", "url": "https://docs.example.com" }
-    ],
-    "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Project+3"
+    "slug": "project1",
+    "title": "Sample Project",
+    "description": "This is a sample project description.",
+    "image": ""
   }
 ]
