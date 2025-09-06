@@ -36,9 +36,9 @@
     "date": "2025-01-10",
     "status": "In Progress",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-2" }
+      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-3" }
     ],
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+2"
+    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+3"
   },
 
   {
@@ -50,9 +50,9 @@
     "date": "2025-01-10",
     "status": "In Progress",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-2" }
+      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-4" }
     ],
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+2"
+    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+4"
   },
 
 
@@ -65,11 +65,12 @@
     "date": "2025-01-05",
     "status": "Planning",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-3" },
+      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-5" },
       { "label": "Documentation", "url": "https://docs.example.com" }
     ],
-    "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Project+3"
+    "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Project+5"
   }
 ]
+
 
 
