@@ -117,7 +117,7 @@ function renderProjects() {
 function createProjectCard(project) {
     const card = document.createElement('div');
     card.className = 'project-card';
-    card.addEventListener('click', () => openProjectModal(project));
+    card.addEventListener('click', () => openProjectPage(project));
     
     const statusClass = getStatusClass(project.status);
     
@@ -137,8 +137,8 @@ function createProjectCard(project) {
                 ${project.links.map(link => 
                     `<a href="${link.url}" class="project-link" target="_blank" rel="noopener" onclick="event.stopPropagation()">
                         ${link.label}
-                    </a>`
-                ).join('')}
+                    </a>`)
+                .join('')}
             </div>
         </div>
     `;
@@ -195,13 +195,18 @@ function openProjectModal(project) {
             ${project.links.map(link => 
                 `<a href="${link.url}" class="project-link" target="_blank" rel="noopener">
                     ${link.label}
-                </a>`
-            ).join('')}
+                </a>`)
+            .join('')}
         </div>
     `;
     
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden';
+}
+
+function openProjectPage(project) {
+    const slug = project.title.toLowerCase().replace(/[ ]+/g, '-').replace(/[^a-z0-9-]/g, '');
+    window.location.href = `${slug}.html`;
 }
 
 // Close project modal
@@ -216,7 +221,7 @@ function setupEventListeners() {
     searchInput.addEventListener('input', filterProjects);
     
     // Modal close events
-    closeModal.addEventListener('click', closeProjectModal);
+    closeModal.addEventListener('click', closeModal);
     
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
@@ -281,11 +286,10 @@ Project JSON structure:
   "status": "Completed", // Completed, In Progress, or Planning
   "links": [
     { "label": "GitHub", "url": "https://github.com/..." },
-    { "label": "Demo", "url": "https://demo.com" }
+    { "label": "Demo", "url": "https://demo.com"
   ],
-  "image": "https://via.placeholder.com/300x200/color/text"
+  "thumbnail": "https://via.placeholder.com/300x200/color/text"
 }
 
 Happy coding! 🎉
 `);
-
