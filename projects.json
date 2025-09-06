@@ -41,6 +41,20 @@
     "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+2"
   },
 
+  {
+    "title": "Test",
+    "type": "tech",
+    "shortDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
+    "fullDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file. You can add more details here.",
+    "tags": ["react", "nodejs", "api"],
+    "date": "2025-01-10",
+    "status": "In Progress",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-2" }
+    ],
+    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+2"
+  },
+
 
   {
     "title": "Sample Project 3",
@@ -57,3 +71,4 @@
     "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Project+3"
   }
 ]
+
