@@ -42,7 +42,7 @@
   },
 
   {
-    "title": "Test",
+    "title": "yasss",
     "type": "tech",
     "shortDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
     "fullDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file. You can add more details here.",
@@ -71,4 +71,5 @@
     "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Project+3"
   }
 ]
+
 
