@@ -1,0 +1,41 @@
+name: Generate Project Pages
+
+on:
+  push:
+    paths:
+      - 'tejastechhub.github.io/projects.json'       # Trigger only if projects.json changes
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Generate project pages
+      run: |
+        cd tejastechhub.github.io
+        node generate_subpages.js
+
+    - name: Configure Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Commit generated pages
+      run: |
+        cd tejastechhub.github.io
+        git add projects/
+        git commit -m "Auto-generate project pages from JSON" || echo "No changes to commit"
+
+    - name: Push changes
+      run: git push
