@@ -1,43 +1,43 @@
 [
   {
-    "title": "Sample Project 1",
+    "title": "Test Project Alpha",
     "type": "personal",
-    "shortDescription": "This is a sample project to demonstrate the dynamic website functionality.",
-    "fullDescription": "This is a sample project to demonstrate the dynamic website functionality. You can add more details here.",
-    "tags": ["web", "javascript", "demo"],
-    "date": "2025-01-15",
+    "shortDescription": "A sample project to test the dynamic page generator.",
+    "fullDescription": "This is a full description for Test Project Alpha. You can expand it as needed.",
+    "tags": ["test", "demo", "alpha"],
+    "date": "2025-09-06",
     "status": "Completed",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-1" },
-      { "label": "Demo", "url": "https://demo.example.com" }
+      { "label": "GitHub", "url": "https://github.com/yourusername/test-project-alpha" },
+      { "label": "Demo", "url": "https://example.com/demo-alpha" }
     ],
-    "thumbnail": "https://via.placeholder.com/300x200/0078d7/ffffff?text=Project+1"
+    "thumbnail": "https://via.placeholder.com/300x200/0078d7/ffffff?text=Alpha"
   },
   {
-    "title": "Sample Project 2",
+    "title": "Test Project Beta",
     "type": "tech",
-    "shortDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
-    "fullDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file. You can add more details here.",
-    "tags": ["react", "nodejs", "api"],
-    "date": "2025-01-10",
+    "shortDescription": "Another sample project for testing purposes.",
+    "fullDescription": "Full description for Test Project Beta, showcasing tags and links.",
+    "tags": ["beta", "nodejs", "react"],
+    "date": "2025-09-05",
     "status": "In Progress",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-2" }
+      { "label": "GitHub", "url": "https://github.com/yourusername/test-project-beta" }
     ],
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+2"
+    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Beta"
   },
   {
-    "title": "Sample Project 3",
+    "title": "Test Project Gamma",
     "type": "tech",
-    "shortDescription": "A third project to show the grid layout and filtering capabilities.",
-    "fullDescription": "A third project to show the grid layout and filtering capabilities. You can add more details here.",
-    "tags": ["python", "data", "analysis"],
-    "date": "2025-01-05",
+    "shortDescription": "Final test project to verify JSON parsing.",
+    "fullDescription": "Full description for Test Project Gamma. Make sure everything generates correctly.",
+    "tags": ["gamma", "python", "data"],
+    "date": "2025-09-04",
     "status": "Planning",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-3" },
-      { "label": "Documentation", "url": "https://docs.example.com" }
+      { "label": "GitHub", "url": "https://github.com/yourusername/test-project-gamma" },
+      { "label": "Docs", "url": "https://example.com/docs-gamma" }
     ],
-    "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Project+3"
+    "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Gamma"
   }
 ]
