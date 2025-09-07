@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Load projects from JSON file
 async function loadProjects() {
     try {
-        const response = await fetch('_data/projects.json');
+        const response = await fetch('projects.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
