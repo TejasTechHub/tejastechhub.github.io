@@ -64,6 +64,24 @@
       { "label": "Demo", "url": "https://ai-assistant.tejast.com" }
     ]
   },
+
+{
+    "slug": "afhdasjkfhasdjk",
+    "title": "AI-Powered Chat Assistant",
+    "type": "ai-ml",
+    "description": "Intelligent chat assistant with natural language processing capabilities and machine learning integration.",
+    "shortDescription": "AI-powered chat assistant with NLP and ML features.",
+    "fullDescription": "An advanced conversational AI assistant featuring natural language understanding, context-aware responses, and integration with machine learning models for personalized interactions and intelligent recommendations.",
+    "tags": ["ai", "machine-learning", "nlp", "openai", "conversational-ai"],
+    "date": "2024-12-01",
+    "status": "Planning",
+    "thumbnail": "https://via.placeholder.com/300x200/e83e8c/ffffff?text=AI+Assistant",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/tejastechhub/ai-chat-assistant" },
+      { "label": "Demo", "url": "https://ai-assistant.tejast.com" }
+    ]
+  },
+
   {
     "slug": "mobile-fitness-app",
     "title": "Cross-Platform Fitness App",
@@ -94,6 +112,22 @@
     "thumbnail": "https://via.placeholder.com/300x200/000000/ffffff?text=Test+Project",
     "links": [
       { "label": "GitHub", "url": "https://github.com/tejastechhub/test-project" }
+    ]
+  },
+  {
+    "slug": "sample-ecommerce-app",
+    "title": "Sample E-Commerce Application",
+    "type": "web",
+    "description": "A demo e-commerce web application with product listings, shopping cart, and checkout functionality.",
+    "shortDescription": "Demo e-commerce site with cart and checkout.",
+    "fullDescription": "This sample project demonstrates a modern e-commerce web application built with React and Node.js. Features include product browsing, shopping cart management, user authentication, and a simple checkout process.",
+    "tags": ["ecommerce", "react", "nodejs", "web", "demo"],
+    "date": "2025-09-06",
+    "status": "Demo",
+    "thumbnail": "https://via.placeholder.com/300x200/343a40/ffffff?text=E-Commerce+Demo",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/tejastechhub/sample-ecommerce-app" },
+      { "label": "Live Demo", "url": "https://tejastechhub.github.io/sample-ecommerce-app" }
     ]
   }
 ]
