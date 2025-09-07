@@ -1,106 +1,84 @@
 [
   {
     "slug": "sample-project-1",
-    "title": "Sample Project 1",
-    "description": "This is a sample project to demonstrate the dynamic website functionality.",
-    "thumbnail": "https://via.placeholder.com/300x200/0078d7/ffffff?text=Project+1"
+    "title": "Dynamic Web Portfolio",
+    "type": "personal",
+    "description": "A dynamic website demonstrating modern web development techniques and interactive project showcases.",
+    "shortDescription": "Dynamic website with interactive project galleries and responsive design.",
+    "fullDescription": "A comprehensive web portfolio featuring dynamic project loading, interactive filtering, and responsive design. Built with modern web technologies to showcase development projects effectively.",
+    "tags": ["web", "javascript", "html", "css", "responsive"],
+    "date": "2024-03-15",
+    "status": "Completed",
+    "thumbnail": "https://via.placeholder.com/300x200/0078d7/ffffff?text=Portfolio+Site",
+    "links": [
+      { "label": "Live Demo", "url": "https://tejastechhub.github.io" },
+      { "label": "GitHub", "url": "https://github.com/tejastechhub/tejastechhub.github.io" }
+    ]
   },
   {
     "slug": "sample-project-2",
-    "title": "Sample Project 2",
-    "description": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+2"
-  },
-  {
-    "slug": "test",
-    "title": "Test",
-    "description": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+3"
-  },
-  {
-    "slug": "yasss",
-    "title": "yasss",
-    "description": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+4"
-  },
-  {
-    "slug": "sample-project-3",
-    "title": "Sample Project 3",
-    "description": "A third project to show the grid layout and filtering capabilities.",
-    "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Project+5"
-  }
-]
-
-[
-  {
-    "title": "Sample Project 1",
-    "type": "personal",
-    "shortDescription": "This is a sample project to demonstrate the dynamic website functionality.",
-    "fullDescription": "This is a sample project to demonstrate the dynamic website functionality. You can add more details here.",
-    "tags": ["web", "javascript", "demo"],
-    "date": "2025-01-15",
-    "status": "Completed",
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-1" },
-      { "label": "Demo", "url": "https://demo.example.com" }
-    ],
-    "thumbnail": "https://via.placeholder.com/300x200/0078d7/ffffff?text=Project+1"
-  },
-  {
-    "title": "Sample Project 2",
+    "title": "Full-Stack API Application",
     "type": "tech",
-    "shortDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
-    "fullDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file. You can add more details here.",
-    "tags": ["react", "nodejs", "api"],
-    "date": "2025-01-10",
+    "description": "A complete full-stack application with React frontend and Node.js backend, implementing RESTful APIs for data management.",
+    "shortDescription": "Full-stack application with React frontend and Node.js backend.",
+    "fullDescription": "A scalable full-stack application featuring modern frontend technologies with React for user interfaces and Node.js for robust backend API services. Implements authentication, data validation, and modern development practices.",
+    "tags": ["react", "nodejs", "express", "rest-api", "mongodb"],
+    "date": "2024-09-10",
     "status": "In Progress",
+    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Full-Stack+App",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-2" }
-    ],
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+2"
+      { "label": "GitHub", "url": "https://github.com/tejastechhub/fullstack-api-app" },
+      { "label": "API Docs", "url": "https://api-docs.example.com" }
+    ]
   },
-
-{
-    "title": "Test",
-    "type": "tech",
-    "shortDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
-    "fullDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file. You can add more details here.",
-    "tags": ["react", "nodejs", "api"],
-    "date": "2025-01-10",
-    "status": "In Progress",
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-3" }
-    ],
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+3"
-  },
-
   {
-    "title": "yasss",
-    "type": "tech",
-    "shortDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file.",
-    "fullDescription": "Another sample project showing how easy it is to add new projects by editing this JSON file. You can add more details here.",
-    "tags": ["react", "nodejs", "api"],
-    "date": "2025-01-10",
-    "status": "In Progress",
-    "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-4" }
-    ],
-    "thumbnail": "https://via.placeholder.com/300x200/28a745/ffffff?text=Project+4"
-  },
-
-
-  {
-    "title": "Sample Project 3",
-    "type": "tech",
-    "shortDescription": "A third project to show the grid layout and filtering capabilities.",
-    "fullDescription": "A third project to show the grid layout and filtering capabilities. You can add more details here.",
-    "tags": ["python", "data", "analysis"],
-    "date": "2025-01-05",
+    "slug": "weather-analytics-dashboard",
+    "title": "Weather Analytics Dashboard",
+    "type": "data",
+    "description": "Interactive weather data visualization dashboard with real-time updates and historical trend analysis.",
+    "shortDescription": "Real-time weather data visualization and analytics platform.",
+    "fullDescription": "A comprehensive weather analytics platform featuring real-time data visualization, historical weather trends, predictive modeling, and location-based weather services. Built with Python data science libraries and modern web frameworks.",
+    "tags": ["python", "data-analysis", "dashboard", "visualization", "real-time"],
+    "date": "2024-11-20",
     "status": "Planning",
+    "thumbnail": "https://via.placeholder.com/300x200/17a2b8/ffffff?text=Weather+Dashboard",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/yourusername/sample-project-5" },
-      { "label": "Documentation", "url": "https://docs.example.com" }
-    ],
-    "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Project+5"
+      { "label": "GitHub", "url": "https://github.com/tejastechhub/weather-analytics" },
+      { "label": "Demo", "url": "https://weather-dashboard.tejast.com" },
+      { "label": "Documentation", "url": "https://docs.tejast.com/weather-dashboard" }
+    ]
+  },
+  {
+    "slug": "ai-chat-assistant",
+    "title": "AI-Powered Chat Assistant",
+    "type": "ai-ml",
+    "description": "Intelligent chat assistant with natural language processing capabilities and machine learning integration.",
+    "shortDescription": "AI-powered chat assistant with NLP and ML features.",
+    "fullDescription": "An advanced conversational AI assistant featuring natural language understanding, context-aware responses, and integration with machine learning models for personalized interactions and intelligent recommendations.",
+    "tags": ["ai", "machine-learning", "nlp", "openai", "conversational-ai"],
+    "date": "2024-12-01",
+    "status": "Planning",
+    "thumbnail": "https://via.placeholder.com/300x200/e83e8c/ffffff?text=AI+Assistant",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/tejastechhub/ai-chat-assistant" },
+      { "label": "Demo", "url": "https://ai-assistant.tejast.com" }
+    ]
+  },
+  {
+    "slug": "mobile-fitness-app",
+    "title": "Cross-Platform Fitness App",
+    "type": "mobile",
+    "description": "Cross-platform mobile application for fitness tracking, workout planning, and health monitoring.",
+    "shortDescription": "Mobile fitness tracking app with personalized workout plans.",
+    "fullDescription": "A comprehensive mobile fitness solution featuring workout tracking, personalized training programs, nutrition monitoring, progress visualization, and social features for fitness communities. Available on iOS and Android platforms.",
+    "tags": ["react-native", "mobile", "fitness", "health", "cross-platform"],
+    "date": "2024-09-25",
+    "status": "In Progress",
+    "thumbnail": "https://via.placeholder.com/300x200/ffc107/000000?text=Fitness+App",
+    "links": [
+      { "label": "iOS App Store", "url": "https://apps.apple.com/us/app/teja-fitness/id123456789" },
+      { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.tejast.fitness" },
+      { "label": "GitHub", "url": "https://github.com/tejastechhub/fitness-app" }
+    ]
   }
 ]

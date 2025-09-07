@@ -22,16 +22,16 @@ document.addEventListener('DOMContentLoaded', function() {
 // Load projects from JSON file
 async function loadProjects() {
     try {
-        const response = await fetch('projects.json');
+        const response = await fetch('_data/projects.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         allProjects = await response.json();
         filteredProjects = [...allProjects];
-        
+
         renderTagFilters();
         renderProjects();
-        
+
         console.log(`Loaded ${allProjects.length} projects successfully!`);
     } catch (error) {
         console.error('Error loading projects:', error);
@@ -205,8 +205,7 @@ function openProjectModal(project) {
 }
 
 function openProjectPage(project) {
-    const slug = project.title.toLowerCase().replace(/[ ]+/g, '-').replace(/[^a-z0-9-]/g, '');
-    window.location.href = `${slug}.html`;
+    window.location.href = `projects/${project.slug}/index.html`;
 }
 
 // Close project modal
@@ -253,7 +252,7 @@ function setupEventListeners() {
     });
     
     // Hero button smooth scroll
-    document.querySelector('.hero .btn').addEventListener('click', (e) => {
+    document.querySelector('.hero .cta-button').addEventListener('click', (e) => {
         e.preventDefault();
         document.querySelector('#projects').scrollIntoView({
             behavior: 'smooth',
