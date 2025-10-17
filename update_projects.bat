@@ -1,16 +1,17 @@
 @echo off
-REM ===== Change to your repository directory =====
-cd /d "C:\Users\mvsla\Documents\tejastechhub.github.io"
+cd /d "C:\Users\saisu\OneDrive\Desktop\TejaWebsite"
 
-REM ===== Stage all changes =====
+echo Running site generation...
+node generate_subpages.js
+
+echo Staging changes...
 git add .
 
-REM ===== Commit the changes (skip if nothing to commit) =====
-git commit -m "Auto-update projects and pages" 2>nul || echo Nothing to commit
+echo Committing changes...
+git commit -m "Auto update: %DATE% %TIME%"
 
-REM ===== Push to GitHub =====
+echo Pushing to GitHub...
 git push origin main
 
-REM ===== Done =====
-echo All updates pushed to GitHub!
+echo Done. Website uploaded successfully!
 pause
